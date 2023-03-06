@@ -1,10 +1,11 @@
 @font-face {
   font-family: RobotoSlab;
-  src: url("/Roboto_Slab/");
+  src: url("/fonts/Roboto_Slab/RobotoSlab.ttf");
 }
 
-@font-face{
-  font-family
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/Open_Sans/OpenSans.ttf");
 }
 
 html {
@@ -26,10 +27,10 @@ html {
   line-height: 1;
 }
 
-.h1 {
+h1 {
   font-size: 1.875rem;
   line-height: 1;
-  font-family: "roboto slab";
+  font-family: RobotoSlab;
 }
 
 /* Alternating Column */
@@ -71,5 +72,5 @@ html {
 }
 
 .alternating_text {
-  font-family: "Open Sans";
+  font-family: OpenSans;
 }
