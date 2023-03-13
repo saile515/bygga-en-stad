@@ -74,3 +74,8 @@ h1 {
 .alternating_text {
   font-family: OpenSans;
 }
+
+.alternating_image {
+  max-width: 20%;
+  max-height: 20%;
+}
