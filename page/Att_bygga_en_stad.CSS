@@ -15,14 +15,13 @@ body{
 .header{
     min-height: 50rem;
     width: 80rem;
-    background: #fafafa;
+    background-color: #fafafa;
     position: sticky;
     text-align: center;
 }
 
 h1{
     color: #18181b;
-    position: sticky;
     font-size: 3rem;
     line-height: 1;
 }
@@ -35,12 +34,12 @@ h1{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: sticky;
         background: #18181b;
         height: 100vh;
-        width: 200px;
+        width: 200rem;
         top: 0;
-        right: -200px;
+        right: -200rem;
         text-align: left;
         z-index: 2;
         transition: 1s;
@@ -48,12 +47,12 @@ h1{
     nav .fa{
         display: block;
         color: #18181b;
-        margin: 10px;
-        font-size: 22px;
+        margin: 10rem;
+        font-size: 22rem;
         cursor: pointer;
     }
     .nav-links ul{
-        padding: 30px;
+        padding: 30rem;
     }
 }
 
@@ -93,16 +92,14 @@ a{
 
 .dropdown-content{
     display: none;
-    position: absolute; 
     background-color: #075985; /*reeeeeeeee*/
-    min-width: 10rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     z-index: 1;
 }
 
 .dropdown-content a{
     color: #fafafa;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.875rem;
     text-decoration: none;
     display: block;
     text-align: left;
