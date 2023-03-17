@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./homepage.css" />
-    <link rel="stylesheet" href="Roboto_Slab/" />
+    <link rel="stylesheet" href="/public/homepage.css" />
     <meta charset="utf-8" />
   </head>
   <body>
@@ -14,38 +13,17 @@
     <div class="center_container">
       <img
         class="header_image"
-        src="/home page/images/Resized_20220822_143407.jpg"
+        src="/public/images/Resized_20220822_143407.jpg"
         alt="Computer Case"
       />
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="column-66">
-          <p class="alternating_text">
-            (GPU) The GPU or the Graphics Processing Unit, is the main purpose
-            of the GPU is to accelerate graphics rendering. This means that
-            without any form of a GPU the computer will not be able to display
-            anything. Some CPU's have integrated GPU's but most of them don't.
-            The GPU is like a big strong muscle, which is very good at doing a
-            few things but not very good at doing a lot of different things. It
-            renders graphics in games and does advanced calculations very very
-            well. The GPU is almost always the most expensive part of the PC,
-            especially if it's a gaming PC. The two largest manufacturers of
-            GPU's is AMD or Nvidia. Nvidia with its RTX and GTX line and AMD
-            with their Radeon RX line of graphics card. The GPU also has a tiny
-            bit of very very fast RAM which is used to keep textures in mind
-            when they are currently not being rendered and for other similar
-            things.
-          </p>
-        </div>
-        <div class="column-33">
-          <img
-            class="alternating_image"
-            src="/home page/images/Resized_20220822_143407.jpg"
-            alt="Graphics Card"
-          />
-        </div>
+    <div class="content">
+      [
+      <div class="container">
+        <p>{content.text}</p>
+        <img src="{content.image}" alt="" />
       </div>
+      ]
     </div>
   </body>
 </html>
