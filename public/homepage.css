@@ -1,0 +1,70 @@
+@font-face {
+  font-family: RobotoSlab;
+  src: url("/fonts/Roboto_Slab/RobotoSlab.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/Open_Sans/OpenSans.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "OpenSans";
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+}
+
+.header_image {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.center_container {
+  display: flex;
+  justify-content: center;
+}
+
+.header_text {
+  font-size: 1.875rem;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 1;
+  font-family: RobotoSlab;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 95%;
+  max-width: 100%;
+  margin-top: 5rem;
+}
+
+.container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.container img {
+  width: 47.5%;
+  border-radius: 0.5rem;
+}
+
+.container p {
+  margin: 2rem;
+  width: 100%;
+}
