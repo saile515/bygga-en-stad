@@ -1,28 +1,29 @@
 @font-face {
-    font-family: RobotoSlab;
-    src: url("/fonts/Roboto_Slab/RobotoSlab.ttf");
-  }
-  
-  @font-face {
-    font-family: OpenSans;
-    src: url("/fonts/Open_Sans/OpenSans.ttf");
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "OpenSans";
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    background-color: #fafafa;
-  }
-  h1 {
-    font-size: 1.875rem;
-    line-height: 1;
-    font-family: RobotoSlab;
-  }
-  
+  font-family: RobotoSlab;
+  src: url("/fonts/Roboto_Slab/RobotoSlab.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/Open_Sans/OpenSans.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "OpenSans";
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 1;
+  font-family: RobotoSlab;
+}
