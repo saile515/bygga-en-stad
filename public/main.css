@@ -1,3 +1,5 @@
+@import url("/public/navbar.css");
+
 @font-face {
   font-family: RobotoSlab;
   src: url("/fonts/Roboto_Slab/RobotoSlab.ttf");
@@ -20,6 +22,7 @@ html {
 body {
   background-color: #fafafa;
   font-family: "OpenSans";
+  margin: 0;
 }
 
 h1 {
