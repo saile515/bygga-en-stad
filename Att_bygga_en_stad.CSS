@@ -24,11 +24,13 @@ h1{
     color: #18181b;
     font-size: 3rem;
     line-height: 1;
+    padding: 1rem;
 }
 
 @media(max-width: 640px){
     .text-box h1{
         font-size: 3rem;
+        line-height: 1;
     }
     .nav-links ul li{
         display: block;
