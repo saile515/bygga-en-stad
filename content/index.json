@@ -1,12 +1,12 @@
 {
-  "content": [
-    {
-      "text": "Lorem ipsum",
-      "image": "/public/images/Resized_20220822_143407.jpg"
-    },
-    {
-      "text": "Lorem ipsum",
-      "image": "/public/images/Resized_20220822_143407.jpg"
-    }
-  ]
+	"content": [
+		{
+			"text": "Lorem ipsum",
+			"image": "/images/Resized_20220822_143407.jpg"
+		},
+		{
+			"text": "Lorem ipsum",
+			"image": "/images/Resized_20220822_143407.jpg"
+		}
+	]
 }
